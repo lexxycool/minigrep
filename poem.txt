@@ -1,0 +1,19 @@
+The rust programming language
+Is strong and true,
+With a heart of metal
+And a will to renew.
+
+Its strict rules keep us honest,
+And its safety net protects,
+But it still allows us to be creative,
+And build great projects.
+
+Its concurrency is a marvel,
+And its performance is top-notch,
+It's the language we turn to
+When we need something that won't stop.
+
+So here's to rust
+A language that we trust,
+To help us build the future
+And to never, ever rust.
