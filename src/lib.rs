@@ -37,7 +37,7 @@ impl Config {
 
 }
 
-pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
+fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     let mut result:Vec<&str> = Vec::new();
     
     for line in contents.lines() {
