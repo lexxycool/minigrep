@@ -24,7 +24,7 @@ impl Config {
                 file_path,
                 ignore_case // set the env variable in the terminal 
                             //eg  $Env:IGNORE_CASE=1; cargo run -- RUSt poem.txt
-                            //unset it -- Remove-Item Env:IGNORE_CASE
+                            //unset it, use Remove-Item Env:IGNORE_CASE
             }
         )
     }
@@ -99,7 +99,8 @@ safe, fast, productive.
 Pick three.
 Trust me.";
 
-        assert_eq!(vec!["Rust:", "Trust me."], search_case_sensitive(query, contents));
+        assert_eq!(vec!["Rust:", "Trust me."], search_case_sensitive(query, contents)); 
+        // can have search function here when it does both case-sensitive and case-insensitive.
     }
 
 }
